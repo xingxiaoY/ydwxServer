@@ -1,0 +1,15 @@
+/**app.wxss**/
+
+@import "static/css/weui.wxss";
+@import "static/css/variables.wxss";
+@import "static/css/common.wxss";
+/*@import "static/css/icons.wxss";*/
+@import "static/css/timeline.wxss";
+
+.page {
+  background-color: var(--bgcolor);
+
+  font-size: var(--font14);
+  color: var(--graydarker);
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}

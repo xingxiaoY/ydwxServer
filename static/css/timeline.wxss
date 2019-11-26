@@ -1,0 +1,123 @@
+/**timeline.wxss**/
+.timeline-header {
+  position: relative;
+  width: 100%;
+}
+.timeline-header .timeline-hd {
+  margin-left: 0;
+  padding: 26rpx 0 26rpx 14rpx;
+}
+.timeline-hd-total {
+  position: absolute;
+  right: 30rpx;
+  top: 26rpx;
+}
+
+.timeline {
+  padding: 0 30rpx;
+}
+.timeline-item {
+  position: relative;
+  width: 100%;
+}
+.timeline-item:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  bottom: 0;
+  border-left: 3rpx solid var(--bgline);
+  z-index: 1;
+}
+.timeline-hd {
+  margin-left: -14rpx;
+  padding: 20rpx 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.timeline-dot {
+  display: block;
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 100%;
+  border: 8rpx solid var(--bgdot);
+  background-color: var(--white);
+  z-index: 2;
+}
+.timeline-dot.active {
+  border-color: var(--blue);
+}
+.timeline-hd-time {
+  margin-left: 20rpx;
+  color: var(--graydarker);
+}
+.timeline-bd {
+  margin-left: 30rpx;
+  padding: 20rpx 30rpx 10rpx;
+  border-radius: 10rpx;
+  background-color: var(--white);
+  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, .1);
+}
+.timeline-bd-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.timeline-bd-inline {
+  display: inline-block;
+}
+.timeline-bd-left {
+  width: calc(100% - 132rpx);
+}
+.timeline-bd-right {
+  width: 132rpx;
+}
+.timeline-bd-right text,
+.timeline-bd-price text,
+.timeline-bd-info text,
+.timeline-bd-total text {
+  display: block;
+}
+.timeline-bd-info {
+  position: relative;
+  margin-top: 20rpx;
+  padding-top: 20rpx;
+}
+.timeline-bd-info:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1rpx solid var(--bglinelight);
+}
+
+.timeline-bd-inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.timeline-bd-total {
+  position: relative;
+  width: 150rpx;
+  padding-left: 50rpx;
+}
+.timeline-bd-total:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  bottom: 0;
+  border-left: 3rpx solid var(--bgline);
+  z-index: 1;
+}
+.timeline-bd-btn-go {
+  width: 150rpx;
+}

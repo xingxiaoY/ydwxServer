@@ -1,0 +1,28 @@
+/* pages/delivery/index.wxss */
+
+.weui-search-bar {
+    background-color: var(--white);
+}
+.weui-search-bar__label {
+    border-radius: 30rpx;
+    background-color: var(--bgcolor);
+    text-align: left;
+    padding-left: 20rpx;
+}
+.weui-icon-search {
+    margin-top: .32em;
+    margin-right: 10rpx;
+    font-size: var(--font20);
+}
+
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result .weui-cell__bd{
+    padding: 2px 0 2px 20px;
+    color: #666;
+}
+.searchbar-result:before{
+    display: none;
+}

@@ -1,0 +1,96 @@
+/**common.wxss**/
+
+/*文字*/
+.text-blue {
+  color: var(--blue)
+}
+.text-red {
+  color: var(--red)
+}
+.text-reddark {
+  color: var(--reddark)
+}
+.text-orange {
+  color: var(--orange)
+}
+.text-green {
+  color: var(--green)
+}
+.text-white {
+  color: var(--white)
+}
+.text-black {
+  color: var(--black)
+}
+.text-graydarker {
+  color: var(--graydarker)
+}
+.text-graydark {
+  color: var(--graydark)
+}
+.text-gray {
+  color: var(--gray)
+}
+.text-graylight {
+  color: var(--graylight)
+}
+.text-weight {
+  font-weight: bold
+}
+/*按钮*/
+.btn-blue {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.btn-bluelight {
+  background-color: var(--bluelight);
+  color: var(--white);
+}
+.btn-red {
+  background-color: var(--red);
+  color: var(--white);
+}
+.btn-orange {
+  background-color: var(--orange);
+  color: var(--white);
+}
+.btn-green {
+  background-color: var(--green);
+  color: var(--white);
+}
+/*边线*/
+.bg-line {
+  background-color: var(--bgline);
+}
+/*文字大小*/
+.text-f10 {
+  font-size: var(--font10)
+}
+.text-f11 {
+  font-size: var(--font11)
+}
+.text-f12 {
+  font-size: var(--font12)
+}
+.text-f13 {
+  font-size: var(--font13)
+}
+.text-f14 {
+  font-size: var(--font14)
+}
+.text-f15 {
+  font-size: var(--font15)
+}
+.text-f16 {
+  font-size: var(--font16)
+}
+.text-f17 {
+  font-size: var(--font17)
+}
+.text-f18 {
+  font-size: var(--font18)
+}
+.text-f20 {
+  font-size: var(--font20)
+}
+

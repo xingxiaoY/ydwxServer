@@ -1,0 +1,31 @@
+/**variables.wxss**/
+
+page {
+  --blue: #0081ff;
+  --bluelight: #2daef8;
+  --red: #e83147;
+  --reddark: #ff3f3e;
+  --orange: #ffa42f;
+  --green: #07c160;
+  --white: #ffffff;
+  --black: #000000;
+  --graydarker: #333333;
+  --graydark: #666666;
+  --gray: #888888;
+  --graylight: #bfbfbf;
+  --bgline: #dddddd;
+  --bgdot: #b2b2b2;
+  --bglinelight: #ededed;
+  --bgcolor: #ededed;
+
+  --font10: 20rpx;
+  --font11: 22rpx;
+  --font12: 24rpx;
+  --font13: 26rpx;
+  --font14: 28rpx;
+  --font15: 30rpx;
+  --font16: 32rpx;
+  --font17: 34rpx;
+  --font18: 36rpx;
+  --font20: 40rpx;
+}
