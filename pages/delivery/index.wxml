@@ -18,6 +18,83 @@
             <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
         </view>
 
+        <view class="timeline">
+            <!--timeline-item Loop-->
+            <view class="timeline-item">
+                <view class="timeline-hd">
+                    <text class='timeline-dot active'></text>
+                    <text class="timeline-hd-time">2019-11-12 15:30</text>
+                </view>
+                <view class="timeline-bd">
+                    <view class="timeline-bd-main timeline-bd-inline">
+                        <view class="timeline-bd-name text-weight text-f16">中国移动成渝接入网二期工程</view>
+                        <view class="timeline-bd-inner">
+                            <view class="timeline-bd-price">
+                                <text class="text-red text-weight text-f20">31860.00</text>
+                                <text class="text-gray">总金额(元)</text>
+                            </view>
+                            <view class="timeline-bd-total">
+                                <text class="text-blue text-weight text-f20">80</text>
+                                <text class="text-gray">总数量(箱)</text>
+                            </view>
+                            <view class="timeline-bd-btn-go">
+                                <button class="weui-btn btn-orange text-f14" size="mini">去发货</button>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="timeline-bd-info text-graydark">
+                        <view class="weui-cell app-cell pd-0">
+                            <view class="weui-cell__bd">
+                                <text>订单编号：AP089235232937372</text>
+                                <text>当前办理：王晓燕</text>
+                            </view>
+                            <view class="weui-cell__ft">
+                                <navigator url="/pages/delivery/detail" open-type="navigate" class="btn-link text-blue text-f14 text-weight btn-view" size="mini">详细</navigator>
+                            </view>
+                        </view>
+
+                    </view>
+                </view>
+            </view><!--timeline-item Loop End-->
+            <!--timeline-item Loop-->
+            <view class="timeline-item">
+                <view class="timeline-hd">
+                    <text class='timeline-dot'></text>
+                    <text class="timeline-hd-time">2019-11-12 15:30</text>
+                </view>
+                <view class="timeline-bd">
+                    <view class="timeline-bd-main timeline-bd-inline">
+                        <view class="timeline-bd-name text-weight text-f16">中国移动成渝接入网二期工程</view>
+                        <view class="timeline-bd-inner">
+                            <view class="timeline-bd-price">
+                                <text class="text-red text-weight text-f20">31860.00</text>
+                                <text class="text-gray">总金额(元)</text>
+                            </view>
+                            <view class="timeline-bd-total">
+                                <text class="text-blue text-weight text-f20">80</text>
+                                <text class="text-gray">总数量(箱)</text>
+                            </view>
+                            <view class="timeline-bd-btn-go">
+                                <button class="weui-btn btn-orange text-f14" size="mini">去发货</button>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="timeline-bd-info text-graydark">
+                        <view class="weui-cell app-cell pd-0">
+                            <view class="weui-cell__bd">
+                                <text>订单编号：AP089235232937372</text>
+                                <text>当前办理：王晓燕</text>
+                            </view>
+                            <view class="weui-cell__ft">
+                                <navigator url="/pages/delivery/detail" open-type="navigate" class="btn-link text-blue text-f14 text-weight btn-view" size="mini">详细</navigator>
+                            </view>
+                        </view>
+
+                    </view>
+                </view>
+            </view><!--timeline-item Loop End-->
+        </view>
+
         <view class="timeline-header">
             <view class="timeline-hd bg-line">
                 <text class='timeline-dot active'></text>
@@ -34,7 +111,7 @@
                     <text class='timeline-dot'></text>
                     <text class="timeline-hd-time">2019-11-12 15:30</text>
                 </view>
-                <navigator url="" open-type="navigate" class="timeline-bd">
+                <view class="timeline-bd">
                     <view class="timeline-bd-main timeline-bd-inline">
                         <view class="timeline-bd-name text-weight text-f16">中国移动成渝接入网二期工程</view>
                         <view class="timeline-bd-inner">
@@ -44,18 +121,63 @@
                             </view>
                             <view class="timeline-bd-total">
                                 <text class="text-blue text-weight text-f20">80</text>
-                                <text class="text-gray">总数量</text>
+                                <text class="text-gray">总数量(箱)</text>
                             </view>
                             <view class="timeline-bd-btn-go">
-                                <button class="weui-btn btn-orange" size="mini">去发货</button>
+                                <button class="weui-btn btn-orange text-f14" size="mini">去发货</button>
                             </view>
                         </view>
                     </view>
                     <view class="timeline-bd-info text-graydark">
-                        <text>订单编号：AP089235232937372</text>
-                        <text>当前办理：王晓燕</text>
+                        <view class="weui-cell app-cell pd-0">
+                            <view class="weui-cell__bd">
+                                <text>订单编号：AP089235232937372</text>
+                                <text>当前办理：王晓燕</text>
+                            </view>
+                            <view class="weui-cell__ft">
+                                <navigator url="/pages/delivery/detail" open-type="navigate" class="btn-link text-blue text-f14 text-weight btn-view" size="mini">详细</navigator>
+                            </view>
+                        </view>
+
                     </view>
-                </navigator>
+                </view>
+            </view><!--timeline-item Loop End-->
+            <!--timeline-item Loop-->
+            <view class="timeline-item">
+                <view class="timeline-hd">
+                    <text class='timeline-dot'></text>
+                    <text class="timeline-hd-time">2019-11-12 15:30</text>
+                </view>
+                <view class="timeline-bd">
+                    <view class="timeline-bd-main timeline-bd-inline">
+                        <view class="timeline-bd-name text-weight text-f16">中国移动成渝接入网二期工程</view>
+                        <view class="timeline-bd-inner">
+                            <view class="timeline-bd-price">
+                                <text class="text-red text-weight text-f20">31860.00</text>
+                                <text class="text-gray">总金额(元)</text>
+                            </view>
+                            <view class="timeline-bd-total">
+                                <text class="text-blue text-weight text-f20">80</text>
+                                <text class="text-gray">总数量(箱)</text>
+                            </view>
+                            <view class="timeline-bd-btn-go">
+                                <button class="weui-btn btn-orange text-f14" size="mini">去发货</button>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="timeline-bd-info text-graydark">
+                        <view class="weui-cell app-cell">
+                            <view class="weui-cell__bd">
+                                <text>订单编号：AP089235232937372</text>
+                                <text>当前办理：王晓燕</text>
+                            </view>
+                            <view class="weui-cell__ft">
+                                <navigator url="/pages/delivery/detail" open-type="navigate" class="btn-link text-blue text-f14 text-weight btn-view" size="mini">详细</navigator>
+                            </view>
+                        </view>
+
+                    </view>
+                </view>
             </view><!--timeline-item Loop End-->
         </view>
 

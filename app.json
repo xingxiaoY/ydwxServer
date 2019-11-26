@@ -6,6 +6,7 @@
     "pages/member/index",
     "pages/order/index",
     "pages/order/list",
+    "pages/my/index",
     "pages/logs/logs"
   ],
   "window": {
@@ -40,14 +41,12 @@
         "selectedIconPath": "static/images/tabbar/icon-3-active.png"
       },
       {
-        "pagePath": "pages/member/index",
+        "pagePath": "pages/my/index",
         "text": "我的",
         "iconPath": "static/images/tabbar/icon-4.png",
         "selectedIconPath": "static/images/tabbar/icon-4-active.png"
       }
     ]
   },
-  "style": "v2",
-  "debug": true,
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap53.json"
 }

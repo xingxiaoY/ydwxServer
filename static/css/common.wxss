@@ -58,11 +58,46 @@
   background-color: var(--green);
   color: var(--white);
 }
-/*边线*/
+.btn-link {
+  background-color: transparent;
+}
+/*背景边线*/
+.bg-blue {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.bg-bluelight {
+  background-color: var(--bluelight);
+  color: var(--white);
+}
+.bg-red {
+  background-color: var(--red);
+  color: var(--white);
+}
+.bg-orange {
+  background-color: var(--orange);
+  color: var(--white);
+}
+.bg-green {
+  background-color: var(--green);
+  color: var(--white);
+}
+.bg-white {
+  background-color: var(--white);
+}
 .bg-line {
   background-color: var(--bgline);
 }
-/*文字大小*/
+/*文字&大小*/
+.text-center {
+  text-align: center
+}
+.text-left {
+  text-align: left
+}
+.text-right {
+  text-align: right
+}
 .text-f10 {
   font-size: var(--font10)
 }
@@ -70,13 +105,13 @@
   font-size: var(--font11)
 }
 .text-f12 {
-  font-size: var(--font12)
+  font-size: var(--font12) !important
 }
 .text-f13 {
   font-size: var(--font13)
 }
 .text-f14 {
-  font-size: var(--font14)
+  font-size: var(--font14) !important
 }
 .text-f15 {
   font-size: var(--font15)
@@ -93,4 +128,31 @@
 .text-f20 {
   font-size: var(--font20)
 }
-
+/*间距*/
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 10rpx;
+}
+.mt-10 {
+  margin-top: 20rpx;
+}
+.pd-0 {
+  padding: 0;
+}
+/*文字超出省略号*/
+.ellipsis-l1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.ellipsis-l2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

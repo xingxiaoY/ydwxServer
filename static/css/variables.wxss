@@ -17,6 +17,7 @@ page {
   --bgdot: #b2b2b2;
   --bglinelight: #ededed;
   --bgcolor: #ededed;
+  --bgborder: #d8d8d8;
 
   --font10: 20rpx;
   --font11: 22rpx;

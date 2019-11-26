@@ -4,6 +4,7 @@
 @import "static/css/variables.wxss";
 @import "static/css/common.wxss";
 /*@import "static/css/icons.wxss";*/
+@import "static/css/cell.wxss";
 @import "static/css/timeline.wxss";
 
 .page {

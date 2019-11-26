@@ -1,5 +1,6 @@
 <!--pages-moban-->
 <view class="page">
+<view class="page__bd">
 <import src="../moban/moban_index.wxml"/>
 <!--pages/home/index.wxml-->
 <view class="home-dind">
@@ -12,7 +13,7 @@
 </view>
 
 <view class="section index-db-box">
-  <navigator url="">
+  <navigator url="../order/index">
       <image src="../../static/images/home/home-pic1.png" class="bg-img"></image>
       <view class="index-db-txt">
         <b>当前待办<text class="db-num">1</text>个</b>
@@ -35,5 +36,6 @@
       </view>
     </block>
   </view>
+</view>
 </view>
 </view>

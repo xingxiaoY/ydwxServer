@@ -14,7 +14,7 @@
 }
 
 .timeline {
-  padding: 0 30rpx;
+  padding: 0 30rpx 30rpx 30rpx;
 }
 .timeline-item {
   position: relative;
@@ -82,6 +82,9 @@
 .timeline-bd-total text {
   display: block;
 }
+.timeline-bd-name {
+  margin-bottom: 20rpx;
+}
 .timeline-bd-info {
   position: relative;
   margin-top: 20rpx;
@@ -94,8 +97,13 @@
   top: 0;
   right: 0;
   height: 1px;
-  border-top: 1rpx solid var(--bglinelight);
+  border-top: 1px solid var(--bglinelight);
 }
+/*.timeline-bd-info .btn-view {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+}*/
 
 .timeline-bd-inner {
   width: 100%;
@@ -119,5 +127,6 @@
   z-index: 1;
 }
 .timeline-bd-btn-go {
-  width: 150rpx;
+  width: 140rpx;
+  text-align: right;
 }

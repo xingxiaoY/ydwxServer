@@ -3,6 +3,7 @@
  * Copyright 2019 Tencent, Inc.
  * Licensed under the MIT license
  */
+
 page {
     line-height: 1.6;
     font-family: -apple-system-font, Helvetica Neue, sans-serif
@@ -22,10 +23,11 @@ icon {
 
 .weui-cells:before {
     top: 0;
-    border-top: 1 rpx solid rgba(0, 0, 0, .1)
+    border-top: 1rpx solid rgba(0, 0, 0, .1)
 }
 
-.weui-cells:after, .weui-cells:before {
+.weui-cells:after,
+.weui-cells:before {
     content: " ";
     position: absolute;
     left: 0;
@@ -36,7 +38,7 @@ icon {
 
 .weui-cells:after {
     bottom: 0;
-    border-bottom: 1 rpx solid rgba(0, 0, 0, .1)
+    border-bottom: 1rpx solid rgba(0, 0, 0, .1)
 }
 
 .weui-cells__title {
@@ -78,7 +80,7 @@ icon {
     top: 0;
     right: 0;
     height: 1px;
-    border-top: 1 rpx solid rgba(0, 0, 0, .1);
+    border-top: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1);
     left: 16px
 }
@@ -108,7 +110,8 @@ icon {
     color: rgba(0, 0, 0, .5)
 }
 
-.weui-cell_label-block, .weui-cell_wxss.weui-cell_wxss:before {
+.weui-cell_label-block,
+.weui-cell_wxss.weui-cell_wxss:before {
     display: block
 }
 
@@ -208,7 +211,8 @@ icon {
     text-align: right
 }
 
-.weui-cell_warn, .weui-textarea-counter_warn {
+.weui-cell_warn,
+.weui-textarea-counter_warn {
     color: #fa5151
 }
 
@@ -219,10 +223,11 @@ icon {
 
 .weui-form-preview:before {
     top: 0;
-    border-top: 1 rpx solid rgba(0, 0, 0, .1)
+    border-top: 1rpx solid rgba(0, 0, 0, .1)
 }
 
-.weui-form-preview:after, .weui-form-preview:before {
+.weui-form-preview:after,
+.weui-form-preview:before {
     content: " ";
     position: absolute;
     left: 0;
@@ -233,7 +238,7 @@ icon {
 
 .weui-form-preview:after {
     bottom: 0;
-    border-bottom: 1 rpx solid rgba(0, 0, 0, .1)
+    border-bottom: 1rpx solid rgba(0, 0, 0, .1)
 }
 
 .weui-form-preview__value {
@@ -258,7 +263,7 @@ icon {
     bottom: 0;
     right: 0;
     height: 1px;
-    border-bottom: 1 rpx solid rgba(0, 0, 0, .1);
+    border-bottom: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1);
     left: 16px
 }
@@ -286,7 +291,7 @@ icon {
     top: 0;
     right: 0;
     height: 1px;
-    border-top: 1 rpx solid rgba(0, 0, 0, .1);
+    border-top: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1)
 }
 
@@ -329,7 +334,7 @@ icon {
     top: 0;
     width: 1px;
     bottom: 0;
-    border-left: 1 rpx solid rgba(0, 0, 0, .1);
+    border-left: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1)
 }
 
@@ -412,7 +417,7 @@ icon {
     top: 0;
     width: 1px;
     bottom: 0;
-    border-right: 1 rpx solid rgba(0, 0, 0, .1);
+    border-right: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1)
 }
 
@@ -467,7 +472,8 @@ icon {
     padding-bottom: 0
 }
 
-.weui-vcode-btn, .weui-vcode-img {
+.weui-vcode-btn,
+.weui-vcode-img {
     margin-left: 5px;
     height: 3.29411765em;
     vertical-align: middle
@@ -476,7 +482,7 @@ icon {
 .weui-vcode-btn {
     display: inline-block;
     padding: 0 .6em 0 .7em;
-    border-left: 1 rpx solid rgba(0, 0, 0, .1);
+    border-left: 1rpx solid rgba(0, 0, 0, .1);
     line-height: 3.29411765em;
     font-size: 17px;
     color: #576b95;
@@ -587,7 +593,8 @@ button.weui-vcode-btn {
     background-color: #ededed
 }
 
-.weui-uploader__input-box:after, .weui-uploader__input-box:before {
+.weui-uploader__input-box:after,
+.weui-uploader__input-box:before {
     content: " ";
     position: absolute;
     top: 50%;
@@ -611,7 +618,8 @@ button.weui-vcode-btn {
     border-color: #8b8b8b
 }
 
-.weui-uploader__input-box:active:after, .weui-uploader__input-box:active:before {
+.weui-uploader__input-box:active:after,
+.weui-uploader__input-box:active:before {
     background-color: #8b8b8b
 }
 
@@ -648,7 +656,8 @@ button.weui-vcode-btn {
     font-size: 17px
 }
 
-.weui-article__h2, .weui-article__h3 {
+.weui-article__h2,
+.weui-article__h3 {
     font-weight: 700;
     margin-bottom: .34em;
     line-height: 1.4
@@ -716,7 +725,8 @@ button.weui-vcode-btn {
     color: rgba(0, 0, 0, .9)
 }
 
-.weui-msg__desc, .weui-msg__desc-primary {
+.weui-msg__desc,
+.weui-msg__desc-primary {
     word-wrap: break-word;
     word-break: break-all;
     margin-bottom: 16px
@@ -735,7 +745,7 @@ button.weui-vcode-btn {
     margin: 0 16px
 }
 
-.weui-msg__opr-area .weui-btn + .weui-btn {
+.weui-msg__opr-area .weui-btn+.weui-btn {
     margin-bottom: 16px
 }
 
@@ -743,7 +753,7 @@ button.weui-vcode-btn {
     margin-bottom: 96px
 }
 
-.weui-msg__opr-area + .weui-msg__extra-area {
+.weui-msg__opr-area+.weui-msg__extra-area {
     margin-top: 48px
 }
 
@@ -752,7 +762,7 @@ button.weui-vcode-btn {
     padding: 0 40px
 }
 
-.weui-msg__opr-area + .weui-msg__tips-area {
+.weui-msg__opr-area+.weui-msg__tips-area {
     margin-bottom: 48px
 }
 
@@ -760,7 +770,8 @@ button.weui-vcode-btn {
     margin-bottom: 64px
 }
 
-.weui-msg__extra-area, .weui-msg__tips {
+.weui-msg__extra-area,
+.weui-msg__tips {
     font-size: 12px;
     color: rgba(0, 0, 0, .5)
 }
@@ -780,7 +791,8 @@ button.weui-vcode-btn {
     padding: 0 32px
 }
 
-.weui-cells__group_form .weui-cell:before, .weui-cells__group_form .weui-cells:before {
+.weui-cells__group_form .weui-cell:before,
+.weui-cells__group_form .weui-cells:before {
     left: 32px;
     right: 32px
 }
@@ -903,7 +915,8 @@ button.weui-vcode-btn {
     color: #576b95
 }
 
-.weui-form .weui-footer, .weui-form .weui-footer__link {
+.weui-form .weui-footer,
+.weui-form .weui-footer__link {
     font-size: 12px
 }
 
@@ -924,7 +937,8 @@ button.weui-vcode-btn {
     margin: 48px 0
 }
 
-.weui-form__extra-area, .weui-form__tips-area {
+.weui-form__extra-area,
+.weui-form__tips-area {
     margin-bottom: 24px;
     text-align: center
 }
@@ -965,11 +979,11 @@ button.weui-vcode-btn {
     flex: 1
 }
 
-.weui-btn + .weui-btn {
+.weui-btn+.weui-btn {
     margin-top: 16px
 }
 
-.weui-btn.weui-btn_inline + .weui-btn.weui-btn_inline {
+.weui-btn.weui-btn_inline+.weui-btn.weui-btn_inline {
     margin-top: auto;
     margin-left: 16px
 }
@@ -1070,7 +1084,7 @@ button.weui-vcode-btn {
     top: 0;
     width: 1px;
     bottom: 0;
-    border-left: 1 rpx solid #c7c7c7;
+    border-left: 1rpx solid #c7c7c7;
     color: #c7c7c7;
     left: -8px;
     top: .36em;
@@ -1087,8 +1101,8 @@ button.weui-vcode-btn {
 }
 
 .weui-grids {
-    border-top: 1 rpx solid rgba(0, 0, 0, .1);
-    border-left: 1 rpx solid rgba(0, 0, 0, .1);
+    border-top: 1rpx solid rgba(0, 0, 0, .1);
+    border-left: 1rpx solid rgba(0, 0, 0, .1);
     overflow: hidden
 }
 
@@ -1098,8 +1112,8 @@ button.weui-vcode-btn {
     padding: 20px 10px;
     width: 33.33333333%;
     box-sizing: border-box;
-    border-right: 1 rpx solid rgba(0, 0, 0, .1);
-    border-bottom: 1 rpx solid rgba(0, 0, 0, .1)
+    border-right: 1rpx solid rgba(0, 0, 0, .1);
+    border-bottom: 1rpx solid rgba(0, 0, 0, .1)
 }
 
 .weui-grid_active {
@@ -1162,7 +1176,9 @@ button.weui-vcode-btn {
     }
 }
 
-.wx_dot_loading, .wx_dot_loading:after, .wx_dot_loading:before {
+.wx_dot_loading,
+.wx_dot_loading:after,
+.wx_dot_loading:before {
     display: inline-block;
     vertical-align: middle;
     width: 6px;
@@ -1197,7 +1213,8 @@ button.weui-vcode-btn {
 }
 
 @-webkit-keyframes b {
-    0%, to {
+    0%,
+    to {
         background-color: rgba(0, 0, 0, .1)
     }
     30% {
@@ -1209,7 +1226,8 @@ button.weui-vcode-btn {
 }
 
 @keyframes b {
-    0%, to {
+    0%,
+    to {
         background-color: rgba(0, 0, 0, .1)
     }
     30% {
@@ -1221,7 +1239,8 @@ button.weui-vcode-btn {
 }
 
 @-webkit-keyframes c {
-    0%, to {
+    0%,
+    to {
         background-color: rgba(0, 0, 0, .3)
     }
     30% {
@@ -1233,7 +1252,8 @@ button.weui-vcode-btn {
 }
 
 @keyframes c {
-    0%, to {
+    0%,
+    to {
         background-color: rgba(0, 0, 0, .3)
     }
     30% {
@@ -1245,7 +1265,8 @@ button.weui-vcode-btn {
 }
 
 @-webkit-keyframes d {
-    0%, to {
+    0%,
+    to {
         background-color: rgba(0, 0, 0, .5)
     }
     30% {
@@ -1257,7 +1278,8 @@ button.weui-vcode-btn {
 }
 
 @keyframes d {
-    0%, to {
+    0%,
+    to {
         background-color: rgba(0, 0, 0, .5)
     }
     30% {
@@ -1287,7 +1309,8 @@ button.weui-vcode-btn {
 }
 
 @-webkit-keyframes e {
-    0%, to {
+    0%,
+    to {
         background-color: hsla(0, 0%, 100%, .5)
     }
     30% {
@@ -1299,7 +1322,8 @@ button.weui-vcode-btn {
 }
 
 @keyframes e {
-    0%, to {
+    0%,
+    to {
         background-color: hsla(0, 0%, 100%, .5)
     }
     30% {
@@ -1311,7 +1335,8 @@ button.weui-vcode-btn {
 }
 
 @-webkit-keyframes f {
-    0%, to {
+    0%,
+    to {
         background-color: hsla(0, 0%, 100%, .3)
     }
     30% {
@@ -1323,7 +1348,8 @@ button.weui-vcode-btn {
 }
 
 @keyframes f {
-    0%, to {
+    0%,
+    to {
         background-color: hsla(0, 0%, 100%, .3)
     }
     30% {
@@ -1335,7 +1361,8 @@ button.weui-vcode-btn {
 }
 
 @-webkit-keyframes g {
-    0%, to {
+    0%,
+    to {
         background-color: hsla(0, 0%, 100%, .1)
     }
     30% {
@@ -1347,7 +1374,8 @@ button.weui-vcode-btn {
 }
 
 @keyframes g {
-    0%, to {
+    0%,
+    to {
         background-color: hsla(0, 0%, 100%, .1)
     }
     30% {
@@ -1435,10 +1463,11 @@ button.weui-vcode-btn {
 
 .weui-panel:before {
     top: 0;
-    border-top: 1 rpx solid rgba(0, 0, 0, .1)
+    border-top: 1rpx solid rgba(0, 0, 0, .1)
 }
 
-.weui-panel:after, .weui-panel:before {
+.weui-panel:after,
+.weui-panel:before {
     content: " ";
     position: absolute;
     left: 0;
@@ -1449,7 +1478,7 @@ button.weui-vcode-btn {
 
 .weui-panel:after {
     bottom: 0;
-    border-bottom: 1 rpx solid rgba(0, 0, 0, .1)
+    border-bottom: 1rpx solid rgba(0, 0, 0, .1)
 }
 
 .weui-panel__hd {
@@ -1467,7 +1496,7 @@ button.weui-vcode-btn {
     bottom: 0;
     right: 0;
     height: 1px;
-    border-bottom: 1 rpx solid rgba(0, 0, 0, .1);
+    border-bottom: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1);
     left: 16px
 }
@@ -1484,9 +1513,9 @@ button.weui-vcode-btn {
     top: 0;
     right: 0;
     height: 1px;
-    border-top: 1 rpx solid rgba(0, 0, 0, .1);
+    border-top: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1);
-    left: 1 s6px
+    left: 1s6px
 }
 
 .weui-media-box:first-child:before {
@@ -1504,7 +1533,8 @@ button.weui-vcode-btn {
     word-break: break-all
 }
 
-.weui-media-box__desc, .weui-media-box__title {
+.weui-media-box__desc,
+.weui-media-box__title {
     line-height: 1.4;
     overflow: hidden;
     text-overflow: ellipsis
@@ -1612,12 +1642,12 @@ button.weui-vcode-btn {
     position: relative;
     z-index: 500;
     background-color: #fff;
-    border-bottom: 1 rpx solid rgba(0, 0, 0, .1);
+    border-bottom: 1rpx solid rgba(0, 0, 0, .1);
     padding-top: constant(safe-area-inset-top);
     padding-top: env(safe-area-inset-top)
 }
 
-.weui-navbar + .weui-tab__panel {
+.weui-navbar+.weui-tab__panel {
     padding-bottom: constant(safe-area-inset-bottom);
     padding-bottom: env(safe-area-inset-bottom)
 }
@@ -1643,7 +1673,7 @@ button.weui-vcode-btn {
     top: 0;
     width: 1px;
     bottom: 0;
-    border-right: 1 rpx solid rgba(0, 0, 0, .1);
+    border-right: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1)
 }
 
@@ -1704,7 +1734,7 @@ button.weui-vcode-btn {
     top: 0;
     right: 0;
     height: 1px;
-    border-top: 1 rpx solid rgba(0, 0, 0, .1);
+    border-top: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1)
 }
 
@@ -1732,7 +1762,9 @@ button.weui-vcode-btn {
     padding-right: env(safe-area-inset-right)
 }
 
-.weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon, .weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon > i, .weui-tabbar__item.weui-bar__item_on .weui-tabbar__label {
+.weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon,
+.weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon>i,
+.weui-tabbar__item.weui-bar__item_on .weui-tabbar__label {
     color: #07c160
 }
 
@@ -1743,7 +1775,8 @@ button.weui-vcode-btn {
     margin-bottom: 2px
 }
 
-.weui-tabbar__icon > i, i.weui-tabbar__icon {
+.weui-tabbar__icon>i,
+i.weui-tabbar__icon {
     font-size: 24px;
     color: rgba(0, 0, 0, .5)
 }
@@ -1821,14 +1854,14 @@ button.weui-vcode-btn {
     background: #c7c7cc
 }
 
-.weui-slideview__btn-group_default ~ .weui-slideview__btn-group_default:before {
+.weui-slideview__btn-group_default~.weui-slideview__btn-group_default:before {
     content: " ";
     position: absolute;
     left: 0;
     top: 0;
     width: 1px;
     bottom: 0;
-    border-left: 1 rpx solid #fff;
+    border-left: 1rpx solid #fff;
     color: #fff
 }
 
@@ -1840,14 +1873,14 @@ button.weui-vcode-btn {
     background: #fe3b30
 }
 
-.weui-slideview__btn-group_warn ~ .weui-slideview__btn-group_warn:before {
+.weui-slideview__btn-group_warn~.weui-slideview__btn-group_warn:before {
     content: " ";
     position: absolute;
     left: 0;
     top: 0;
     width: 1px;
     bottom: 0;
-    border-left: 1 rpx solid #fff;
+    border-left: 1rpx solid #fff;
     color: #fff
 }
 
@@ -2064,15 +2097,17 @@ button.weui-vcode-btn {
     white-space: nowrap
 }
 
-icon[type=success]:after, icon[type=success]:before {
-    color: #07c160 !important
+icon[type=success]:after,
+icon[type=success]:before {
+    color: #07c160!important
 }
 
 .weui-mask {
     background: rgba(0, 0, 0, .6)
 }
 
-.weui-mask, .weui-mask_transparent {
+.weui-mask,
+.weui-mask_transparent {
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -2160,7 +2195,8 @@ icon[type=success]:after, icon[type=success]:before {
     justify-content: center
 }
 
-.weui-dialog__bd:first-child, .weui-dialog__ft {
+.weui-dialog__bd:first-child,
+.weui-dialog__ft {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex
@@ -2180,7 +2216,7 @@ icon[type=success]:after, icon[type=success]:before {
     top: 0;
     right: 0;
     height: 1px;
-    border-top: 1 rpx solid rgba(0, 0, 0, .1);
+    border-top: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1)
 }
 
@@ -2207,7 +2243,7 @@ icon[type=success]:after, icon[type=success]:before {
     top: 0;
     width: 1px;
     bottom: 0;
-    border-left: 1 rpx solid rgba(0, 0, 0, .1);
+    border-left: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1)
 }
 
@@ -2219,7 +2255,7 @@ icon[type=success]:after, icon[type=success]:before {
     color: rgba(0, 0, 0, .9)
 }
 
-@media screen and (min-width: 352px) {
+@media screen and (min-width:352px) {
     .weui-dialog {
         width: 320px;
         margin: 0 auto
@@ -2274,7 +2310,7 @@ icon[type=success]:after, icon[type=success]:before {
     bottom: 0;
     right: 0;
     height: 1px;
-    border-bottom: 1 rpx solid rgba(0, 0, 0, .1);
+    border-bottom: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1)
 }
 
@@ -2313,7 +2349,7 @@ icon[type=success]:after, icon[type=success]:before {
     top: 0;
     right: 0;
     height: 1px;
-    border-top: 1 rpx solid rgba(0, 0, 0, .1);
+    border-top: 1rpx solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .1)
 }
 
@@ -2426,17 +2462,17 @@ icon[type=success]:after, icon[type=success]:before {
     flex: 1
 }
 
-.weui-half-screen-dialog__hd__side + .weui-half-screen-dialog__hd__main {
+.weui-half-screen-dialog__hd__side+.weui-half-screen-dialog__hd__main {
     text-align: center;
     padding: 0 40px
 }
 
-.weui-half-screen-dialog__hd__main + .weui-half-screen-dialog__hd__side {
+.weui-half-screen-dialog__hd__main+.weui-half-screen-dialog__hd__side {
     right: -8px;
     left: auto
 }
 
-.weui-half-screen-dialog__hd__main + .weui-half-screen-dialog__hd__side .weui-icon-btn {
+.weui-half-screen-dialog__hd__main+.weui-half-screen-dialog__hd__side .weui-icon-btn {
     right: 0
 }
 
@@ -2480,7 +2516,8 @@ icon[type=success]:after, icon[type=success]:before {
     text-align: center
 }
 
-.weui-half-screen-dialog__ft .weui-btn:nth-last-child(n+2), .weui-half-screen-dialog__ft .weui-btn:nth-last-child(n+2) + .weui-btn {
+.weui-half-screen-dialog__ft .weui-btn:nth-last-child(n+2),
+.weui-half-screen-dialog__ft .weui-btn:nth-last-child(n+2)+.weui-btn {
     display: inline-block;
     vertical-align: top;
     margin: 0 8px;
@@ -2561,7 +2598,7 @@ icon[type=success]:after, icon[type=success]:before {
 
 page {
     --height: 44px;
-    --right: 190 rpx
+    --right: 190rpx
 }
 
 .weui-navigation-bar {
@@ -2570,7 +2607,7 @@ page {
 
 .weui-navigation-bar .android {
     --height: 48px;
-    --right: 222 rpx
+    --right: 222rpx
 }
 
 .weui-navigation-bar__inner {
@@ -2583,7 +2620,8 @@ page {
     width: calc(100% - var(--right))
 }
 
-.weui-navigation-bar__inner, .weui-navigation-bar__inner .weui-navigation-bar__left {
+.weui-navigation-bar__inner,
+.weui-navigation-bar__inner .weui-navigation-bar__left {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
